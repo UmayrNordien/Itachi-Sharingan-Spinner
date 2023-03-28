@@ -10,18 +10,18 @@
     border-radius: 50%;
 }
 .loader .circle1 {
-    --size: 90px;
+    --size: 120px;
     animation: size1_1 2.5s infinite alternate;
     z-index: 1;
 }
 .loader .circle2 {
-    --size: 60px;
+    --size: 90px;
     animation: size1_2 2.5s infinite alternate;
     z-index: 2;
 }
 /* Itachi Sharingan Image*/
 .loader .circle3 {
-    --size: 30px;
+    --size: 60px;
     animation: size1_3 2.5s infinite alternate;
     z-index: 3;
     background-image: url(https://i.postimg.cc/PNsvfCVk/sharingan.gif);
@@ -32,16 +32,19 @@
     0%,
     10% {
         transform: scale(0);
+        background-color: #e5e5e5;
     }
     100% {
         transform: scale(1);
         box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;
+        
     }
 }
 @keyframes size1_2 {
     0%,
     40% {
         transform: scale(0);
+        background-color: #e5e5e5;
     }
     100% {
         transform: scale(1);
@@ -52,6 +55,7 @@
     0%,
     70% {
         transform: scale(0);
+        background-color: #e5e5e5;
     }
     100% {
         transform: scale(1);
